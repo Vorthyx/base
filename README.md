@@ -1,6 +1,6 @@
 <div align="center"> 
 <img src="https://files.catbox.moe/8aebsw.jpg" width="85%">
-«Modern WhatsApp Bot Base powered by Baileys.»
+ WhatsApp Bot Base powered by Revinza
 
 <p>
 <img src="https://img.shields.io/badge/Version-1.0-7c3aed">
