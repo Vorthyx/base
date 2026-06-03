@@ -1,4 +1,4 @@
-<div align="center"><img src="https://files.catbox.moe/mrl4cp.mp4" width="100%"/>ABGREVINZA BOT
+<div align="center"><img src=https://files.catbox.moe/8aebsw.jpg" width="100%"/>ABGREVINZA BOT
 
 «Modern WhatsApp Bot Base powered by Baileys.»
 
