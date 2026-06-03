@@ -1,5 +1,5 @@
 <div align="center"> 
-<img src="https://files.catbox.moe/8aebsw.jpg" width="100%">
+<img src="https://files.catbox.moe/8aebsw.jpg" width="50%">
 «Modern WhatsApp Bot Base powered by Baileys.»
 
 <p>
