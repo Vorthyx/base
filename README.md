@@ -1,118 +1,140 @@
-<div align="center">
+<div align="center">⚡ ABGREVINZA BOT
 
-# ABGREVINZA BOT
+Next Generation WhatsApp Bot Framework
 
-Lightweight WhatsApp Bot Base built with Baileys.
+Build powerful WhatsApp automation with a lightweight, modular, and developer-friendly architecture powered by Baileys.
 
-<p>
-  <img src="https://img.shields.io/badge/NodeJS-20+-green?style=flat-square">
-  <img src="https://img.shields.io/badge/Baileys-Latest-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/Version-v1.0-purple?style=flat-square">
-</p>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=22&pause=1000&color=00FFAA&center=true&vCenter=true&width=500&lines=Fast+%E2%9A%A1+Lightweight;Plugin+Based+System;Multi+Device+Support;Developer+Friendly+Framework" /><br><img src="https://img.shields.io/badge/Node.js-20+-00ff99?style=for-the-badge&logo=node.js&logoColor=white">
+<img src="https://img.shields.io/badge/Baileys-Latest-00bfff?style=for-the-badge">
+<img src="https://img.shields.io/badge/Version-v1.0-a855f7?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Stable-22c55e?style=for-the-badge"></div>---
 
-</div>
+🚀 About
 
----
+ABGREVINZA BOT is a modern WhatsApp Bot Base designed for developers who want a clean, scalable, and production-ready foundation.
 
-## Overview
-
-A simple and scalable WhatsApp bot base designed for developers who want a clean foundation for creating their own bots.
-
-### Features
-
-- Multi Device Support
-- Pairing Code Login
-- Plugin System
-- Case Handler
-- Fast Startup
-- Lightweight
-- Easy To Customize
-- Developer Friendly
+Built with performance and simplicity in mind, making it easy to create custom commands, plugins, and automation systems without unnecessary complexity.
 
 ---
 
-## Structure
+✨ Features
 
-```bash
-.
++ Multi Device Authentication
++ Pairing Code Login
++ Plugin Loader System
++ Dynamic Command Handler
++ Fast Startup
++ Low Memory Usage
++ Modular Structure
++ Easy Configuration
++ Developer Friendly
++ Scalable Architecture
+
+---
+
+📂 Project Structure
+
+ABGREVINZA/
+│
 ├── plugins/
 │   ├── main-menu.js
-│   └──DLL
+│   ├── owner.js
+│   └── ...
+│
 ├── system/
 │   ├── caseHandler.js
-│   └── helper.js
+│   ├── helper.js
+│   └── functions.js
 │
 ├── config.js
 ├── index.js
 ├── menu.jpg
 ├── menu.mp3
 └── package.json
-```
 
 ---
 
-## Installation
+⚙️ Installation
 
-```bash
-git clone https://github.com/username/repository
-cd repository
+Clone Repository
+
+git clone https://github.com/username/ABGREVINZA
+cd ABGREVINZA
+
+Install Dependencies
+
 npm install
+
+Start Bot
+
 node index.js
-```
 
 ---
 
-## Configuration
+🔧 Configuration
 
-Edit `config.js`
+Open:
 
-```js
-global.owner = "628xxxxxxxxxx"
-global.botname = "AbgRevinza"
-global.prefix = "."
-```
-
----
-
-## Creating Commands
-
-Create a new file inside:
-
-```bash
-plugins/
-```
+config.js
 
 Example:
 
-```js
+global.owner = "628xxxxxxxxxx"
+global.botname = "ABGREVINZA"
+global.prefix = "."
+
+---
+
+📦 Creating Plugins
+
+Create a file inside:
+
+plugins/
+
+Example:
+
 module.exports = {
-  command: ['bot'],
-  run: async (sock, m, { msg }) => {
-    await m.reply('Bot Active')
+  command: ["bot"],
+
+  run: async (sock, m) => {
+    m.reply("ABGREVINZA BOT ACTIVE ⚡")
   }
 }
-```
 
 ---
 
-## Disclaimer
+📊 Core Principles
 
-This project is intended for educational purposes only.
-
-The author is not responsible for any misuse of this source code.
+Feature| Description
+Modular| Easy to maintain and expand
+Lightweight| Low RAM usage
+Fast| Optimized startup
+Clean| Beginner friendly
+Flexible| Easy customization
 
 ---
 
-## Credits
+🛡 Disclaimer
 
-- BotzWhatsapp
-- Node.js
+This project is provided for educational and development purposes.
+
+Users are fully responsible for how they use, modify, and distribute this source code.
+
+---
+
+👑 Credits
+
+- Baileys Team
+- Node.js Contributors
+- Open Source Community
 - Revinza
 
 ---
 
-<div align="center">
+<div align="center">⚡ ABGREVINZA BOT
 
-Made with ☕ by Revinza
+Fast • Modern • Lightweight
+
+Made with ❤️ by Revinza
 
 </div>
