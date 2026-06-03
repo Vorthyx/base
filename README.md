@@ -1,54 +1,9 @@
-<div align="center"><img src="https://files.catbox.moe/mrl4cp.mp4" width="100%"/>ABGREVINZA BOT
+<div align="center">ABGREVINZA BOT
 
-«Modern WhatsApp Bot Base powered by Baileys.»
+Modern WhatsApp Bot Framework
 
-<p>
-<img src="https://img.shields.io/badge/Version-1.0-7c3aed">
-<img src="https://img.shields.io/badge/NodeJS-20+-22c55e">
-</p></div>Features
+<video src="https://files.catbox.moe/mrl4cp.mp4" width="100%" controls></video>
 
-- Multi Device
-- Pairing Code
-- Plugin System
-- Dynamic Commands
-- Lightweight
-- Easy Customization
-- Fast Response
-
-
-
-## Structure
-```bash
-├── plugins/
-│  ├── main-menu.js
-│  └──dll
-├── system/
-│   ├── caseHandler.js
-│   └── helper.js
-│
-├── config.js
-├── index.js
-├── menu.jpg
-├── menu.mp3
-└── package.json
-```
-
----
-
-Example Plugin
-
-module.exports = {
-  command: ["ngocok"],
-
-  run: async (sock, m) => {
-    m.reply("nyoli")
-  }
-}
-
----
-
-<div align="center">Basr Bot
-
-Made by Revinza
-
-</div>
+<br><img src="https://img.shields.io/badge/NodeJS-20+-22c55e?style=flat-square">
+<img src="https://img.shields.io/badge/Baileys-Latest-3b82f6?style=flat-square">
+<img src="https://img.shields.io/badge/Version-v1.0-a855f7?style=flat-square"></div>
