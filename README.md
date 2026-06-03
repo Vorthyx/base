@@ -1,50 +1,20 @@
-<div align="center">ABGREVINZA
+<div align="center"><img src="https://files.catbox.moe/banner.gif" width="100%"/>ABGREVINZA BOT
 
-Lightweight WhatsApp Bot Framework
+«Modern WhatsApp Bot Base powered by Baileys.»
 
-A modern WhatsApp bot base built for speed, scalability, and simplicity.
+<p>
+<img src="https://img.shields.io/badge/Version-1.0-7c3aed">
+<img src="https://img.shields.io/badge/NodeJS-20+-22c55e">
+<img src="https://img.shields.io/badge/Baileys-Latest-3b82f6">
+</p></div>Features
 
-<img src="https://img.shields.io/badge/Node.js-20+-success?style=flat-square">
-<img src="https://img.shields.io/badge/Baileys-Latest-blue?style=flat-square">
-<img src="https://img.shields.io/badge/License-MIT-purple?style=flat-square"></div>---
-
-Overview
-
-ABGREVINZA is a lightweight WhatsApp bot framework powered by Baileys.
-
-Designed with a modular architecture, allowing developers to build and maintain plugins efficiently without unnecessary complexity.
-
----
-
-Highlights
-
-- Multi Device Support
-- Pairing Code Authentication
-- Plugin Based System
-- Dynamic Command Handler
-- Lightweight & Fast
+- Multi Device
+- Pairing Code
+- Plugin System
+- Dynamic Commands
+- Lightweight
 - Easy Customization
-- Clean Project Structure
-
----
-
-Project Structure
-
-.
-├── plugins/
-│   ├── menu.js
-│   ├── owner.js
-│   └── ...
-│
-├── system/
-│   ├── caseHandler.js
-│   ├── helper.js
-│   └── functions.js
-│
-├── config.js
-├── index.js
-├── package.json
-└── README.md
+- Fast Response
 
 ---
 
@@ -57,15 +27,17 @@ node .
 
 ---
 
-Configuration
+Structure
 
-global.owner = "628xxxxxxxxxx"
-global.botname = "ABGREVINZA"
-global.prefix = "."
+plugins/
+system/
+config.js
+index.js
+package.json
 
 ---
 
-Plugin Example
+Example Plugin
 
 module.exports = {
   command: ["ping"],
@@ -77,14 +49,8 @@ module.exports = {
 
 ---
 
-License
-
-This project is available for learning, development, and personal customization.
-
----
-
 <div align="center">ABGREVINZA BOT
 
-Built for Developers
+Made by Revinza
 
 </div>
