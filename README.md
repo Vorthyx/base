@@ -39,10 +39,10 @@
 Example Plugin
 
 module.exports = {
-  command: ["ping"],
+  command: ["ngocok"],
 
   run: async (sock, m) => {
-    m.reply("Pong!")
+    m.reply("nyoli")
   }
 }
 
