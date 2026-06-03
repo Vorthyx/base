@@ -36,6 +36,8 @@ A simple and scalable WhatsApp bot base designed for developers who want a clean
 ```bash
 .
 ├── plugins/
+│   ├── main-menu.js
+│   └──DLL
 ├── system/
 │   ├── caseHandler.js
 │   └── helper.js
