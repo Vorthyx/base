@@ -16,16 +16,7 @@
 - Easy Customization
 - Fast Response
 
----
 
-Installation
-
-git clone https://github.com/username/ABGREVINZA
-cd ABGREVINZA
-npm install
-node .
-
----
 
 ## Structure
 ```bash
