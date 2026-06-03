@@ -1,17 +1,90 @@
-<div align="center">
+<div align="center">ABGREVINZA
 
-<img src="https://files.catbox.moe/xxxxx.gif" width="100%">
+Lightweight WhatsApp Bot Framework
 
-# ⚡ ABGREVINZA BOT
+A modern WhatsApp bot base built for speed, scalability, and simplicity.
 
-### Next Generation WhatsApp Bot Framework
+<img src="https://img.shields.io/badge/Node.js-20+-success?style=flat-square">
+<img src="https://img.shields.io/badge/Baileys-Latest-blue?style=flat-square">
+<img src="https://img.shields.io/badge/License-MIT-purple?style=flat-square"></div>---
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=22&pause=1000&color=00FFAA&center=true&vCenter=true&width=600&lines=Fast+%E2%9A%A1+Lightweight;Plugin+Based+System;Multi+Device+Support;Developer+Friendly+Framework" />
+Overview
 
-<br>
+ABGREVINZA is a lightweight WhatsApp bot framework powered by Baileys.
 
-<img src="https://img.shields.io/badge/Node.js-20+-00ff99?style=for-the-badge&logo=node.js&logoColor=white">
-<img src="https://img.shields.io/badge/Baileys-Latest-00bfff?style=for-the-badge">
-<img src="https://img.shields.io/badge/Version-v1.0-a855f7?style=for-the-badge">
+Designed with a modular architecture, allowing developers to build and maintain plugins efficiently without unnecessary complexity.
+
+---
+
+Highlights
+
+- Multi Device Support
+- Pairing Code Authentication
+- Plugin Based System
+- Dynamic Command Handler
+- Lightweight & Fast
+- Easy Customization
+- Clean Project Structure
+
+---
+
+Project Structure
+
+.
+├── plugins/
+│   ├── menu.js
+│   ├── owner.js
+│   └── ...
+│
+├── system/
+│   ├── caseHandler.js
+│   ├── helper.js
+│   └── functions.js
+│
+├── config.js
+├── index.js
+├── package.json
+└── README.md
+
+---
+
+Installation
+
+git clone https://github.com/username/ABGREVINZA
+cd ABGREVINZA
+npm install
+node .
+
+---
+
+Configuration
+
+global.owner = "628xxxxxxxxxx"
+global.botname = "ABGREVINZA"
+global.prefix = "."
+
+---
+
+Plugin Example
+
+module.exports = {
+  command: ["ping"],
+
+  run: async (sock, m) => {
+    m.reply("Pong!")
+  }
+}
+
+---
+
+License
+
+This project is available for learning, development, and personal customization.
+
+---
+
+<div align="center">ABGREVINZA BOT
+
+Built for Developers
 
 </div>
