@@ -28,10 +28,10 @@ node .
 ---
 
 ## Structure
-
 ```bash
-.
 ├── plugins/
+│  ├── main-menu.js
+│  └──dll
 ├── system/
 │   ├── caseHandler.js
 │   └── helper.js
