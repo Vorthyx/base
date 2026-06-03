@@ -5,7 +5,6 @@
 <p>
 <img src="https://img.shields.io/badge/Version-1.0-7c3aed">
 <img src="https://img.shields.io/badge/NodeJS-20+-22c55e">
-<img src="https://img.shields.io/badge/Baileys-Latest-3b82f6">
 </p></div>Features
 
 - Multi Device
