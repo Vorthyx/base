@@ -27,13 +27,21 @@ node .
 
 ---
 
-Structure
+## Structure
 
-plugins/
-system/
-config.js
-index.js
-package.json
+```bash
+.
+├── plugins/
+├── system/
+│   ├── caseHandler.js
+│   └── helper.js
+│
+├── config.js
+├── index.js
+├── menu.jpg
+├── menu.mp3
+└── package.json
+```
 
 ---
 
