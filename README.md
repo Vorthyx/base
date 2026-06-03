@@ -1,38 +1,41 @@
-# 🤖 AbgRevinza WhatsApp Bot
-
 <div align="center">
 
-<img src="./menu.jpg" width="200">
+# ABGREVINZA BOT
 
-### Simple • Fast • Lightweight
+Lightweight WhatsApp Bot Base built with Baileys.
 
-Base WhatsApp Bot menggunakan Baileys yang dibuat untuk memudahkan developer dalam membuat dan mengembangkan bot WhatsApp.
+<p>
+  <img src="https://img.shields.io/badge/NodeJS-20+-green?style=flat-square">
+  <img src="https://img.shields.io/badge/Baileys-Latest-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Version-v1.0-purple?style=flat-square">
+</p>
 
 </div>
 
 ---
 
-## ✨ Features
+## Overview
+
+A simple and scalable WhatsApp bot base designed for developers who want a clean foundation for creating their own bots.
+
+### Features
 
 - Multi Device Support
 - Pairing Code Login
-- Plugin Handler
-- Case Handler System
-- Modular Structure
-- Fast Response
+- Plugin System
+- Case Handler
+- Fast Startup
 - Lightweight
-- Easy Development
-- Easy Maintenance
-- Free To Use
+- Easy To Customize
+- Developer Friendly
 
 ---
 
-## 📂 Project Structure
+## Structure
 
 ```bash
 .
 ├── plugins/
-│
 ├── system/
 │   ├── caseHandler.js
 │   └── helper.js
@@ -46,111 +49,68 @@ Base WhatsApp Bot menggunakan Baileys yang dibuat untuk memudahkan developer dal
 
 ---
 
-## 📌 Description
-
-### index.js
-File utama yang menjalankan koneksi WhatsApp dan seluruh sistem bot.
-
-### config.js
-Berisi konfigurasi bot seperti owner, nama bot, prefix, dan pengaturan lainnya.
-
-### plugins/
-Tempat menyimpan seluruh fitur atau command bot.
-
-### system/caseHandler.js
-Mengatur proses command dan event yang masuk.
-
-### system/helper.js
-Berisi function helper dan utilitas yang digunakan oleh sistem.
-
----
-
-## 🚀 Installation
-
-### Clone Repository
+## Installation
 
 ```bash
-git clone https://github.com/username/repository.git
-```
-
-### Open Directory
-
-```bash
+git clone https://github.com/username/repository
 cd repository
-```
-
-### Install Dependencies
-
-```bash
 npm install
-```
-
-### Run Bot
-
-```bash
 node index.js
 ```
 
 ---
 
-## 🛠 Adding New Features
+## Configuration
 
-Buat file baru di folder plugins.
+Edit `config.js`
 
-Contoh:
+```js
+global.owner = "628xxxxxxxxxx"
+global.botname = "AbgRevinza"
+global.prefix = "."
+```
 
-```javascript
+---
+
+## Creating Commands
+
+Create a new file inside:
+
+```bash
+plugins/
+```
+
+Example:
+
+```js
 module.exports = {
-  command: ['ping'],
-  run: async ({ m }) => {
-    m.reply('Pong!')
+  command: ["ping"],
+  execute: async ({ m }) => {
+    m.reply("Pong!")
   }
 }
 ```
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
-Project ini dibuat untuk tujuan pembelajaran.
+This project is intended for educational purposes only.
 
-Segala bentuk penyalahgunaan source code bukan tanggung jawab creator.
-
-Gunakan bot dengan bijak dan patuhi Terms of Service WhatsApp.
+The author is not responsible for any misuse of this source code.
 
 ---
 
-## 📜 Rules
+## Credits
 
-### Allowed
-
-- Recode
-- Modify
-- Learn
-- Add Features
-- Private Use
-
-### Not Allowed
-
-- Remove Credits
-- Sell Original Source
-- Claim As Your Own
-- Spread Malware
-
----
-
-## 🎁 Free Release
-
-Source ini dibagikan secara gratis untuk komunitas.
-
-Jika repo ini membantu, jangan lupa ⭐ repository.
+- Baileys
+- Node.js
+- Revinza
 
 ---
 
 <div align="center">
 
-### Made With ❤️ By Revinza
-
-© 2026 Revinza
+Made with ☕ by Revinza
 
 </div>
