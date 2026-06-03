@@ -48,7 +48,7 @@ module.exports = {
 
 ---
 
-<div align="center">ABGREVINZA BOT
+<div align="center">Basr Bot
 
 Made by Revinza
 
