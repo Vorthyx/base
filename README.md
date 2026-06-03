@@ -105,7 +105,7 @@ The author is not responsible for any misuse of this source code.
 
 ## Credits
 
-- Baileys
+- BotzWhatsapp
 - Node.js
 - Revinza
 
