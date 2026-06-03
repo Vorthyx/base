@@ -84,9 +84,9 @@ Example:
 
 ```js
 module.exports = {
-  command: ["ping"],
-  execute: async ({ m }) => {
-    m.reply("Pong!")
+  command: ['bot'],
+  run: async (sock, m, { msg }) => {
+    await m.reply('Bot Active')
   }
 }
 ```
